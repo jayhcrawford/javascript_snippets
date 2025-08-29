@@ -42,6 +42,17 @@
 		],
 		"description": "async function"
 	},
+	"Try Catch": {
+		"prefix": "tc",
+		"body": [
+			"try {",
+			"${1}",
+			"} catch (error) {",
+			"  console.log(error, ${2})",
+			"}",
+		],
+		"description": "try catch block"
+	},
 	"React FC": {
 		"prefix": "rfc",
 		"body": [
